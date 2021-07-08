@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    width: 70px;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.banner-home {
+    width: 80%;
+    height: 50%;
+    top: 45%;
+    left: 10%;
+    position: absolute;
+    color: #fff;
+}
+
+.app-text{
+    width: 50%;
+    float: left;
+}
+
+.app-text h1 {
+    font-size: 46px;
+    width: 640;
+    position: relative;
+    margin-left: 55px;
+}
+
+.app-text p {
+    width: 650;
+    font-size: 18px;
+    margin: 5% 0 30px 10%;
+    line-height: 108%;
+    color: #919191;
+}
+
+.btn-Letgo {
+    margin: 5% 0 30% 10%;
+}
+
+.app-images {
+    width: 50%;
+    float: right;
+}
+
+.images {
+    width: 95%;
+    margin-top: -25%;
+    padding-left: 20%;
+}
+
+.wallper {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10% 10%;
+    border-radius: 10% 10% 0 0;
+    background:  rgb(45, 46, 51);
+}
+
+.app-text-news{
+    width: 50%;
+    float: right;
+    background:  rgb(45, 46, 51);
+}
+
+.app-text-news h1 {
+    font-size: 46px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+    color: #fff;
+    background:  rgb(45, 46, 51);
+}
+
+.app-text-news p {
+    width: 650;
+    font-size: 18px;
+    margin: 5% 0 30% 10%;
+    line-height: 25%;
+    color: #919191;
+    background:  rgb(45, 46, 51);
+}
+
+.app-images-news {
+    width: 60%;
+    margin: 5% 0 30px 10%;
+    border-radius: 3% 3% 3% 3%;
+    float: left;
+    background:  rgb(45, 46, 51);
+}
+
+.banner-about {
+    width: 80%;
+    height: 50%;
+    top: 45%;
+    left: 10%;
+    margin: 15% 10% 60% 10%;
+    color: #fff;
+}
+
+.text-about-left {
+    width: 50%;
+    float: left;
+}
+
+.text-about-left h1 {
+    font-size: 46px;
+    width: 640;
+    position: relative;
+    margin-left: 55px;
+}
+
+.text-about-left p {
+    width: 650;
+    font-size: 108%;
+    margin: 5% 0 30px 10%;
+    line-height: 25%;
+    color: #919191;
+}
+
+.images-about-right {
+    width: 50%;
+    float: right;
+}
+
+.text-about-right {
+    width: 50%;
+    float: right;
+}
+
+.text-about-right h1 {
+    font-size: 46px;
+    width: 640;
+    position: relative;
+    margin-left: 55px;
+}
+
+.text-about-right p {
+    width: 650;
+    font-size: 108%;
+    margin: 5% 0 30px 10%;
+    line-height: 25%;
+    color: #919191;
+}
+
+.images-about-left {
+    width: 50%;
+    float: left;
+}
+
+.images-about_right {
+    width: 120%;
+    margin-top: -35%;
+    padding-left: 20%;
+    border-radius: 100% 20% 20% 100%;
+}
+
+.images-about_left {
+    width: 120%;
+    margin-top: -35%;
+    padding-right: 20%;
+    border-radius: 20% 100% 100% 20%;
+}
+
+.part-about-one {
+    width: 80%;
+    height: 45%;
+    margin: 0% 0% 45%;
+    color: #fff;
+}
+
+.part-about-two {
+    width: 80%;
+    height: 45%;
+    margin: 0% 0% 30%;
+    color: #fff;
+}
